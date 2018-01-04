@@ -1,0 +1,5 @@
+The current bug population of Earth is about: 1480000000000000000
+The current bug population of Mars is about: 18446744073692774400
+The current bug population of Venus is about: 0
+The total bug population of the solar system is: 1480000000000000000
+The most useless bug is a butterfly 

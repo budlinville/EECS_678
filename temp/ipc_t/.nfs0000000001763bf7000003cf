@@ -1,0 +1,10 @@
+make[1]: Entering directory '/home/a301l871/EECS_678/temp/ipc_t'
+make clean
+make[2]: Entering directory '/home/a301l871/EECS_678/temp/ipc_t'
+rm -f finder pipe tmp1 tmp2
+make[2]: Leaving directory '/home/a301l871/EECS_678/temp/ipc_t'
+make build
+make[2]: Entering directory '/home/a301l871/EECS_678/temp/ipc_t'
+gcc -Wall -g finder.c -o finder
+make[2]: Leaving directory '/home/a301l871/EECS_678/temp/ipc_t'
+./finder > tmp1

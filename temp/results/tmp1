@@ -1,0 +1,9 @@
+total 36
+drwxrwxr-x 12 a301l871 a301l871_g  4096 Feb 10  2013 bash-4.2
+-rwxr-xr-x  1 a301l871 a301l871_g 11776 Sep  7 10:21 finder
+-rw-rw-r--  1 a301l871 a301l871_g  1733 Sep  7 10:21 finder.c
+-rw-r--r--  1 a301l871 a301l871_g   102 Feb 10  2013 finder.sh
+-rw-rw-r--  1 a301l871 a301l871_g   278 Sep  6 19:14 fork.c
+-rw-rw-r--  1 a301l871 a301l871_g   621 Sep  7 10:21 Makefile
+-rw-rw-r--  1 a301l871 a301l871_g  1691 Sep  6 19:14 pipe.c
+-rw-r--r--  1 a301l871 a301l871_g     0 Sep  7 10:21 tmp1

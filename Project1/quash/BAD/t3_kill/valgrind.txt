@@ -1,0 +1,53 @@
+==474== Memcheck, a memory error detector
+==474== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==474== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==474== Command: /home/a301l871/EECS_678/Project01/quash/quash
+==474== 
+==581== 
+==581== HEAP SUMMARY:
+==581==     in use at exit: 165 bytes in 5 blocks
+==581==   total heap usage: 21 allocs, 16 frees, 23,115 bytes allocated
+==581== 
+==581== LEAK SUMMARY:
+==581==    definitely lost: 0 bytes in 0 blocks
+==581==    indirectly lost: 0 bytes in 0 blocks
+==581==      possibly lost: 0 bytes in 0 blocks
+==581==    still reachable: 165 bytes in 5 blocks
+==581==         suppressed: 0 bytes in 0 blocks
+==581== Reachable blocks (those to which a pointer was found) are not shown.
+==581== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==581== 
+==581== For counts of detected and suppressed errors, rerun with: -v
+==581== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==640== 
+==640== HEAP SUMMARY:
+==640==     in use at exit: 151 bytes in 3 blocks
+==640==   total heap usage: 31 allocs, 28 frees, 27,034 bytes allocated
+==640== 
+==640== LEAK SUMMARY:
+==640==    definitely lost: 0 bytes in 0 blocks
+==640==    indirectly lost: 0 bytes in 0 blocks
+==640==      possibly lost: 0 bytes in 0 blocks
+==640==    still reachable: 151 bytes in 3 blocks
+==640==         suppressed: 0 bytes in 0 blocks
+==640== Reachable blocks (those to which a pointer was found) are not shown.
+==640== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==640== 
+==640== For counts of detected and suppressed errors, rerun with: -v
+==640== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+==474== 
+==474== HEAP SUMMARY:
+==474==     in use at exit: 112 bytes in 1 blocks
+==474==   total heap usage: 42 allocs, 41 frees, 30,935 bytes allocated
+==474== 
+==474== LEAK SUMMARY:
+==474==    definitely lost: 0 bytes in 0 blocks
+==474==    indirectly lost: 0 bytes in 0 blocks
+==474==      possibly lost: 0 bytes in 0 blocks
+==474==    still reachable: 112 bytes in 1 blocks
+==474==         suppressed: 0 bytes in 0 blocks
+==474== Reachable blocks (those to which a pointer was found) are not shown.
+==474== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==474== 
+==474== For counts of detected and suppressed errors, rerun with: -v
+==474== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)

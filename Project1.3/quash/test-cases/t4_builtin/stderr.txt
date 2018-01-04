@@ -1,0 +1,62 @@
+==5581== Memcheck, a memory error detector
+==5581== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==5581== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5581== Command: /home/a301l871/EECS_678/Project1.3/quash/quash
+==5581== 
+IMPLEMENT ME: src/execute.c(line 107): check_jobs_bg_status()
+==5581== Syscall param close(fd) contains uninitialised byte(s)
+==5581==    at 0x4F318C0: __close_nocancel (syscall-template.S:84)
+==5581==    by 0x40412C: create_process (execute.c:390)
+==5581==    by 0x404333: run_script (execute.c:425)
+==5581==    by 0x401490: main (quash.c:132)
+==5581==  Uninitialised value was created by a stack allocation
+==5581==    at 0x404164: run_script (execute.c:398)
+==5581== 
+==5581== Warning: invalid file descriptor -13540220 in syscall close()
+==5581== Syscall param close(fd) contains uninitialised byte(s)
+==5581==    at 0x4F318C0: __close_nocancel (syscall-template.S:84)
+==5581==    by 0x404151: create_process (execute.c:391)
+==5581==    by 0x404333: run_script (execute.c:425)
+==5581==    by 0x401490: main (quash.c:132)
+==5581==  Uninitialised value was created by a stack allocation
+==5581==    at 0x404164: run_script (execute.c:398)
+==5581== 
+==5581== Warning: invalid file descriptor -16777328 in syscall close()
+IMPLEMENT ME: src/execute.c(line 219): run_pwd()
+==5673== 
+==5673== HEAP SUMMARY:
+==5673==     in use at exit: 138 bytes in 3 blocks
+==5673==   total heap usage: 12 allocs, 9 frees, 1,067,788 bytes allocated
+==5673== 
+==5673== LEAK SUMMARY:
+==5673==    definitely lost: 0 bytes in 0 blocks
+==5673==    indirectly lost: 0 bytes in 0 blocks
+==5673==      possibly lost: 0 bytes in 0 blocks
+==5673==    still reachable: 138 bytes in 3 blocks
+==5673==         suppressed: 0 bytes in 0 blocks
+==5673== Reachable blocks (those to which a pointer was found) are not shown.
+==5673== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5673== 
+==5673== For counts of detected and suppressed errors, rerun with: -v
+==5673== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==5581== 
+==5581== Process terminating with default action of signal 2 (SIGINT)
+==5581==    at 0x4F0607A: waitpid (waitpid.c:29)
+==5581==    by 0x4043E5: run_script (execute.c:433)
+==5581==    by 0x401490: main (quash.c:132)
+==5581== 
+==5581== HEAP SUMMARY:
+==5581==     in use at exit: 17,880 bytes in 8 blocks
+==5581==   total heap usage: 14 allocs, 6 frees, 1,067,812 bytes allocated
+==5581== 
+==5581== LEAK SUMMARY:
+==5581==    definitely lost: 0 bytes in 0 blocks
+==5581==    indirectly lost: 0 bytes in 0 blocks
+==5581==      possibly lost: 0 bytes in 0 blocks
+==5581==    still reachable: 17,880 bytes in 8 blocks
+==5581==         suppressed: 0 bytes in 0 blocks
+==5581== Reachable blocks (those to which a pointer was found) are not shown.
+==5581== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5581== 
+==5581== For counts of detected and suppressed errors, rerun with: -v
+==5581== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
